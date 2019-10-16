@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Todos = ({todos, deleteTodo}) => {
+const Todos = ({todos, deleteTodo,}) => {
+
     const todosList = todos.length ? (
         todos.map(todo => {
             return (
